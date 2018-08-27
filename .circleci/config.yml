@@ -28,6 +28,9 @@ jobs:
           name: ESlint
           command: yarn lint
       - run:
+          name: Security Check
+          command: yarn security:check
+      - run:
           name: Test
           command: yarn test
 

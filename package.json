@@ -1,6 +1,6 @@
 {
   "name": "@xq-stencil/node-jest-lib",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Stencil based on node with jest",
   "main": "lib/index.js",
   "engines": {
