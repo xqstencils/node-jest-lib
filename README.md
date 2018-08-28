@@ -15,6 +15,7 @@ This is a stencils for common package base on node and jest.
 * Support ES7 & ES6 syntax.
 * Support ESlint to check the code.
 * Support Jest to test your code.
+* Support Nsp to do security check for the dependencis.
 
 ## Development:
 
@@ -58,6 +59,12 @@ $ yarn lint
 $ yarn test
 # or run the test in watch mode
 $ yarn test:watch
+```
+
+### Security check
+
+```
+$ yarn security:check
 ```
 
 ### Setup CI
