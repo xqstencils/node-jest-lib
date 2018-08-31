@@ -1,5 +1,5 @@
 # Node Jest lib stencil
-This is a stencils for common package base on node and jest.
+This is a stencil for common package base on node and jest.
 
 ## Current Status:
 
