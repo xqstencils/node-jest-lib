@@ -11,7 +11,8 @@ This is a stencils for common package base on node and jest.
 
 ## Features:
 
-* Include CI Script to run the test and publish your package.
+* Run the test and publish your package with ci.
+* Support CircleCi for pipeline.
 * Support ES7 & ES6 syntax.
 * Support ESlint to check the code.
 * Support Jest to test your code.

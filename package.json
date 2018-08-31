@@ -1,7 +1,7 @@
 {
   "name": "@xq-stencil/node-jest-lib",
-  "version": "0.1.4",
-  "description": "Stencil based on node with jest",
+  "version": "1.0.0",
+  "description": "A library stencil based on node and test used jest",
   "main": "lib/index.js",
   "engines": {
     "node": ">= 6"
@@ -40,11 +40,13 @@
     "url": "git+https://github.com/xqstencils/node-jest-lib.git"
   },
   "keywords": [
+    "lib",
     "node",
     "babel",
     "jest",
     "eslint",
-    "lib"
+    "security",
+    "circleci"
   ],
   "author": "Cao Xiaoqi<xqcao@xqcao.com>",
   "contributors": [
