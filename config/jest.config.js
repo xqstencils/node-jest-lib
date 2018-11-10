@@ -1,12 +1,13 @@
 module.exports = {
-  rootDir: '../src',
+  rootDir: '../',
   testURL: 'http://localhost/',
-  coverageDirectory: '../coverage',
+  globals: { },
+  coverageDirectory: '<rootDir>/coverage',
   collectCoverageFrom: [
-    '**/*.{js,jsx}'
+    '<rootDir>/src/**/*.js'
   ],
   coverageReporters: ['html'],
-  testMatch: ['**/__tests__/*.js?(x)', '**/?(*.)+(spec|test).js?(x)'],
+  testMatch: ['<rootDir>/src/**/__tests__/*.js', '<rootDir>/src/**/?(*.)+(spec|test).js'],
   testPathIgnorePatterns: [
     '<rootDir>/src/index.js'
   ],
