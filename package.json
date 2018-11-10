@@ -1,6 +1,6 @@
 {
   "name": "@xq-stencil/node-jest-lib",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A library stencil based on node and test used jest",
   "main": "lib/index.js",
   "engines": {
@@ -27,7 +27,9 @@
     "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
     "@babel/polyfill": "^7.0.0",
     "@babel/preset-env": "^7.1.0",
+    "babel-core": "^7.0.0-bridge",
     "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
     "eslint": "^5.9.0",
     "eslint-plugin-jest": "^22.0.0",
     "jest": "^23.6.0",
