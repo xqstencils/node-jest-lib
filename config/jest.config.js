@@ -2,16 +2,17 @@ module.exports = {
   rootDir: '../',
   testURL: 'http://localhost/',
   globals: { },
-  coverageDirectory: '<rootDir>/coverage',
-  collectCoverageFrom: [
-    '<rootDir>/src/**/*.js'
-  ],
-  coverageReporters: ['html'],
   testMatch: ['<rootDir>/src/**/__tests__/*.js', '<rootDir>/src/**/?(*.)+(spec|test).js'],
   testPathIgnorePatterns: [
     '<rootDir>/src/index.js'
   ],
+  coverageDirectory: '<rootDir>/coverage',
+  coverageReporters: ['html'],
+  collectCoverageFrom: [
+    '<rootDir>/src/**/*.js'
+  ],
   coveragePathIgnorePatterns: [
+    '<rootDir>/src/index.js',
     '<rootDir>/lib',
     '<rootDir>/coverage',
     '<rootDir>/node_modules'
